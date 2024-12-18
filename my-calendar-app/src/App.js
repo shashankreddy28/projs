@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h2>Welcome to My Calendar App</h2>
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <h2 className="text-4xl font-bold text-blue-600">Welcome to My Calendar App</h2>
+      </div>
+      
     </div>
   );
 }
